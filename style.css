@@ -92,12 +92,17 @@ margin-bottom: 20px;
 
 /* main section styles */
 
+main{
+max-width: 1140;
+}
+
 /* about section styles */
 .about{
     padding:130px;
     border-radius: 10px;
     text-align: center;
     margin: 130px 0px;
+    background: #FFF8F3;
 
 
 }
@@ -123,6 +128,15 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+
+
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
 
     
 }
